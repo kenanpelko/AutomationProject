@@ -1,0 +1,12 @@
+{
+  "roles": [
+    {
+      "name": "Admin",
+      "description": "Admin role with all available privileges."
+    },
+    {
+      "name": "User",
+      "description": "Role with reduced rights to platform users."
+    }
+  ]
+}

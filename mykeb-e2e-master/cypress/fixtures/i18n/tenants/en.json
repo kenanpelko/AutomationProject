@@ -1,0 +1,31 @@
+{
+  "buttons": {
+    "newTenant": "New Tenant",
+    "switchToTenant": "Switch to tenant",
+    "edit": "Edit",
+    "saveChanges": "Save Changes",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "createSubtenant": "Create subtenant"
+  },
+  "table": {
+    "name": "Name",
+    "lastChanged": "Last Changed",
+    "ownedBy": "Ownded by",
+    "emptyTable": "No tenants found"
+  },
+  "titles": {
+    "tenants": "Tenants",
+    "instruction": "Choose a tenant to directly switch to the Hub of it or manage the tenants."
+  },
+  "fileds": {
+    "tenantName": "Tenant Name",
+    "parentTenant": "Parent tenant",
+    "tags": "Tags",
+    "description": "Description"
+  },
+  "deletePopup": {
+    "popupTitle": "Delete tenant?",
+    "popupMessage": "Deleting an tenant will permanently remove it and might prevent users from logging ins"
+  }
+}

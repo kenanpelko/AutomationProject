@@ -1,0 +1,8 @@
+{
+  "success": {
+    "changesSaved": " Changes successfully saved "
+  },
+  "fail": {
+    "tenantOwnDelete": "Cannot delete your own tenant"
+  }
+}

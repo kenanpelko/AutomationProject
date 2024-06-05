@@ -1,0 +1,42 @@
+{
+  "name": "mykeb-e2e",
+  "version": "1.0.0",
+  "author": "Elunic QA team",
+  "description": "End to end tests for KEB project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "open:dashboard": "npx cypress open",
+    "lint": "eslint . --ext ts --ignore-path .gitignore --cache",
+    "format": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.elunic.software/tarik.pelko/mykeb-e2e.git"
+  },
+  "keywords": [
+    "keb",
+    "author",
+    "cypress",
+    "automation"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.5.1",
+    "cypress-qase-reporter": "^1.4.2-alpha.2",
+    "cypress-xpath": "^2.0.1",
+    "dotenv": "^16.0.1",
+    "open": "^8.4.2",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-v10-preserve-cookie": "^1.2.1",
+    "eslint": "^8.32.0",
+    "merge-anything": "^5.0.4",
+    "prettier": "^2.7.1"
+  }
+}
